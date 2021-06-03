@@ -10,7 +10,7 @@ export default function Dashboard() {
     const history = useHistory()
 
     async function handleLogout(){
-        setError("")
+        setError('')
 
         try{
             await logout()
